@@ -1,0 +1,80 @@
+nav {
+    top: 0;
+    left: 0;
+    width: 200px; /* Lebar sidebar */
+    height: 100%; /* Tinggi sidebar setinggi layar */
+    min-height: 650px; /* Atur ketinggian minimum jika perlu */
+    padding: 20px; /* Spasi di dalam sidebar */
+    border-right: 2px solid #333; /* Garis kanan sidebar */
+}
+
+nav a {
+    display: block;
+    font-size: larger;
+    color: black; /* Warna teks link */
+    text-decoration: none; /* Hilangkan garis bawah pada link */
+    margin-bottom: 10px; /* Spasi antara link */
+}
+
+.current {
+    font-weight: bold;
+}
+
+.content {
+    width: 100%;
+    padding: 20px; /* Spasi di dalam konten */
+    /* border: 2px solid red; */
+}
+
+ul {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+tbody tr {
+    padding: 5px;
+    border-bottom: 2px solid gray;
+}
+
+table thead tr th {
+    padding: 10px;
+    background-color: rgb(217, 217, 217);
+    border-bottom: 2px solid gray;
+}
+table tbody tr td {
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label,
+label span,
+label input,
+label textarea {
+    display: block;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 1px 5px;
+}
+
+small {
+    display: flex;
+    /* float: right; */
+}
+
+.archived {
+    background-color: rgb(217, 217, 217);
+}
